@@ -1,123 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>www.rameshw3schoolwebsite.com</title>
-    <link rel="stylesheet" href="w3schoolwebsite.css">
-    <link rel="icon" href="rletter.jpeg">
+   <meta charset="utf-8">
+   <title>www.ramesh login page.com</title>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="login.css">
+   <link rel="icon" href="rletter.jpeg">
 </head>
-
 <body>
-<header>
-    <div class="list-elements">
-        <a class="nnav" href="index.html">HOME</a>
-        <a class="nnav" href="htmlcontent.html">HTML</a >
-        <a class="nnav" href="csscontent.html">CSS       </a >
-        <a class="nnav" href="javascriptcontent.html">JAVASCRIPT</a >    
-        <a class="nnav" href="#">PYTHON    </a >
-        <a class="nnav" href="#">REACT JS  </a >
-    </div> 
-    <div class="ontop-search"> 
-        <input class="top-search" type="search" placeholder="search the html,css or javascript">
-    </div>
-    <div class="button-section">
-        <button type="submit" class="topleft-button"><a class="loginbtn" href="login.html">Login</a></button>
-        <button type="button" class="topright-button"><a class="loginbtn" href="login.html">Sign Up</a></button>
-    </div> 
-</header>
-
-    
-<div class="container">
-<div class="content">
-    <h1 class="titlee">Learn to Code</h1>
-<h3 class="decrip">With the worlds largest web developer site</h3>
-<input class="search2" type="search" placeholder="search our tutorials">
-<h3 class="decripp">Not sure where to begin?</h3>
-</div>
-</div>
-
-
-
-<div class="container2">
-    <h1 class="html">HTML</h1>
-    <p class="html-dec">The language for buliding web pages</p>
-    <div class="buttons-adda">
-    <button class="button1">Learn HTML</button><br>
-    <button class="button2">Video Tutorial</button><br>
-    <button class="button3">HTML Reference</button><br>
-    <button class="button4">Get certified</button><br>
-    </div>
-</div>
-
-
-<div class="container3">
-    <h2 class="html-ex">HTML Examples</h2>
-
-    <div class="sub-container">
-        <code class="code">
-            html <br>
-            head <br>
-            title <br>
-            /title <br>
-            /head <br>
-            body <br>
-            h1>  this the heading  /h1 <br>
-            body <br>
-            html 
-        </code>
-    </div>
-    <button class="button5">Try it Yourself</button>
-</div>
-
-
-
-<div class="container4">
-    <h1 class="css">CSS</h1>
-    <p class="css-dec">The language styling web pages</p>
-    <div class="buttons-adda">
-    <button class="button11">Learn CSS</button><br>
-    <button class="button22">CSS Reference</button><br>
-    <button class="button33">Get certified</button><br>
-    </div>
-</div>
-
-
-<div class="container5">
-    <h2 class="css-ex">CSS Examples</h2>
-
-    <div class="sub-container2">
-        <code class="code1">
-            html <br>
-            head <br>
-            title <br>
-            /title <br>
-            /head <br>
-            body <br>
-            h1>  this the heading  /h1 <br>
-            body <br>
-            html 
-        </code>
-    </div>
-    <button class="button55">Try it Yourself</button>
-</div>
-
-
-
-
-<div class="languages">
-    <span>PHP</span>
-    <span>jQuery</span>
-    <span>Java</span>
-    <span>C++</span>
-    <span>W3.CSS</span>
-    <span>Bootstrap</span>
-    <span>SQL</span>
-    <span>Python</span>
-    <span>React</span>
-    <span>Node.js</span>
-    <span>Git</span>
-    <span>JSON</span>
-    </div>
+   <div class="wrapper">
+      <div class="title-text">
+         <div class="title login">
+            Account 
+         </div>
+         <div class="title signup">
+            Account
+         </div>
+      </div>
+      <div class="form-container">
+         <div class="slide-controls">
+            <input type="radio" name="slide" id="login" checked>
+            <input type="radio" name="slide" id="signup">
+            <label for="login" class="slide login">Login</label>
+            <label for="signup" class="slide signup">SignUp</label>
+            <div class="slider-tab"></div>
+         </div>
+         <div class="form-inner">
+            <form action="w3schoolwebsite.html" class="login">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="pass-link">
+                  <a href="#">Reset password?</a>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="Login">
+               </div>
+               <div class="signup-link">
+                  Don't Have Account? <a href="">Create A New</a>
+               </div>
+            </form>
+            <form action="w3schoolwebsite.html" class="signup">
+               <div class="field">
+                  <input type="text" placeholder="Email Address" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Password" required>
+               </div>
+               <div class="field">
+                  <input type="password" placeholder="Confirm Password" required>
+               </div>
+               <div class="field btn">
+                  <div class="btn-layer"></div>
+                  <input type="submit" value="SignUp">
+               </div>
+            </form>
+         </div>
+      </div>
+   </div>
+      <script src="login.js"></script>
 </body>
 </html>
