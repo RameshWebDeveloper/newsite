@@ -1,0 +1,377 @@
+header{
+    height: 60px;
+    display: flex;
+    background-color: rgb(144, 215, 190);
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.list-elements{
+    list-style: none;
+    margin-top: 10px;
+    position: fixed;
+    display: flex; 
+    z-index: 1;
+    border-radius: 10px;
+    background-color: rgb(19, 235, 239);
+}
+.nnav{
+    margin: 10px;
+    padding: 7px;
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+    transition: all ease 0.3s;
+}
+.nnav:hover{
+    background-color: rgb(227, 219, 6);
+    border-radius: 8px;
+    color: rgb(18, 18, 18);
+    box-shadow: 0 0 20px rgb(61, 11, 240);
+}
+:target-text{
+    color: blue;
+    border: solid;
+    background-color: black;
+}
+.button-section{
+    display: inline-block;
+    position: absolute;
+    left: 1200px;
+    top: 20px;
+}
+.ontop-search{
+    position: absolute;
+    left: 600px;
+    top: 20px;
+}
+.top-search{
+    height: 40px;
+    width: 350px;
+    border-radius: 8px;
+    border: solid 1.5px;
+    font-size: 16px;
+    margin-left: 50px;
+    box-shadow: 0 0 15px black;
+    text-align: center;
+    transition:  all ease 1s;
+}
+.top-search:hover{
+    width: 500px;
+    box-shadow: 0 0 15px yellow;
+}
+.loginbtn{
+    text-decoration: none;
+}
+.topleft-button{
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    font-weight: bolder;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    margin-right: 20px;
+    transition: all ease 0.5s;
+}
+.topleft-button:hover, .topright-button:hover{
+    color: red;
+    background-color: rgb(196, 221, 9);
+}
+.topright-button{
+    z-index: 1;
+    background-color: rgb(231, 238, 231);
+    color: rgb(4, 27, 1);
+    border-radius: 8px;
+    border: none;
+    box-shadow: 3px 3px 5px black;
+    width: 100px;
+    height: 40px;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.container{
+    text-align: center;
+    background-color: black;
+    height: 600px;
+    border-bottom-left-radius: 200px;
+    border-left: solid rgb(242, 255, 0) 40px;
+}
+.content{
+    padding-top: 100px;
+}
+.titlee{
+    color: white;
+    font-size: 60px;
+}
+.decrip{
+    color: rgb(164, 211, 9);
+    font-weight: bolder;
+    font-size: 25px;
+}
+.search2{
+    width: 650px;
+    height: 50px;
+    border-radius: 15px;
+    padding-left: 20px;
+    font-size: 18px;
+    text-align: center;
+    transition: all ease 0.3s;
+}
+.search2:hover{
+    width: 800px;
+    box-shadow: 0 0 20px white;
+    border-color: black;
+}
+.decripp{
+    color: white;
+    font-size: 25px;
+    font-weight: bolder;   
+    text-decoration: underline; 
+}
+.container2{
+    text-align: center;
+    background: linear-gradient(to left, rgb(244, 4, 32), rgb(224, 236, 3)) ;
+    border-bottom-right-radius: 200px;
+    border-right: solid rgb(80, 198, 80) 40px;
+    transition: all ease 0.5s;
+    box-shadow: 0 0 10px;
+}
+.container2:hover{
+    box-shadow: 0 0 25px;
+}
+.html{
+    font-size: 60px;
+    margin-bottom: 0;
+    padding-top: 15px;
+}
+.html-dec{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.button1{
+    background-color: green;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+.button2{
+    background-color: rgb(167, 203, 22);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+.button3{
+    background-color: black;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+.button4{
+    background-color: rgb(211, 111, 115);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 25px;
+}
+.button1, .button2, .button3, .button4{
+    margin-top: 20px;
+    transition: all ease 0.3s;
+}
+.button1:hover, .button2:hover, .button3:hover, .button4:hover{
+    background-color: blue;
+    box-shadow: 0 0 25px black;
+    width: 300px;
+}
+.container3{
+    height: 500px;
+    background-color: rgb(220, 206, 206);
+    box-shadow: 0 0 15px;
+    border-radius: 5px;
+}
+.html-ex{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.sub-container{
+    height: 300px;
+    background-color: white;
+    margin: 0 30px 0 30px;
+    border-left: solid 6px green;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.code{
+    color: black;
+    
+}
+.button5{
+    background-color: green;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    border: none;
+}
+.button5:hover{
+    background-color: rgb(37, 216, 248);
+    box-shadow: 0 0 25px black;
+    color: black;
+}
+
+
+.container4{
+    text-align: center;
+    background:linear-gradient(45deg, blue, yellow);
+    border-top-right-radius: 200px;
+    border-right: solid rgb(14, 200, 247) 40px;
+    height: 500px;
+    padding-top: 40px;
+    margin-top: 20px;
+    box-shadow: 0 0 10px;
+    transition: all ease 0.4s;
+}
+.container4:hover{
+    box-shadow: 0 0 20px rgb(55, 7, 7);
+}
+.css{
+    font-size: 60px;
+    margin-bottom: 0;
+}
+.css-dec{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.button11{
+    background-color: rgb(0, 87, 128);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+.button22{
+    background-color: rgb(0, 0, 0);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+}
+.button33{
+    background-color: rgb(94, 46, 7);
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: black;
+    font-weight: bolder;
+    font-size: 16px;
+    border: none;
+    margin-bottom: 25px;
+}
+.button11, .button22, .button33{
+    margin-top: 20px;
+    transition: all ease 0.3s;
+}
+.button11:hover, .button22:hover, .button33:hover{
+    background-color: rgb(255, 0, 136);
+    box-shadow: 0 0 25px rgb(0, 0, 0);
+    width: 300px;
+}
+.container5{
+    height: 500px;
+    background-color: rgb(220, 206, 206);
+    box-shadow: 0 0 15px;
+    border-radius: 5px;
+}
+.css-ex{
+    margin-left: 30px;
+    padding-top: 30px;
+}
+.sub-container2{
+    height: 300px;
+    background-color: white;
+    margin: 0 30px 0 30px;
+    border-left: solid 6px green;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+.code1{
+    color: black;
+    
+}
+.button55{
+    background-color: green;
+    border-radius: 20px;
+    width: 200px;
+    height: 40px;
+    color: white;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 25px;
+    border: none;
+    transition: all ease 0.4s;
+}
+.button55:hover{
+    background-color: rgb(37, 216, 248);
+    box-shadow: 0 0 25px black;
+    color: black;
+    width: 300px;
+    position: absolute;
+}
+
+
+
+
+.languages{
+    display: grid;
+    background-color:white;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+}
+span{
+    margin: 30px;
+    padding: 60px;
+    width: 150px;
+    height: 150px;
+    background: linear-gradient(45deg, black, white);
+    font-size: 40px;
+    color: rgb(24, 23, 23);
+    transition: all ease 0.3s;
+    border-radius: 10px;
+    box-shadow: 0 2px 3px black;
+}
+span:hover{
+    background-color: rgb(10, 10, 9);
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgb(15, 15, 16);
+    border: solid black 1px;
+}
